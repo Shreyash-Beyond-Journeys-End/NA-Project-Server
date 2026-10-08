@@ -68,12 +68,12 @@ this server, and the bytes in `HEXDUMP.md` are exactly what `bcurl -v` printed.
 
 ![build and tests, 16 passed](screenshots/1-build-test.png)
 
-The server log while the client fetched `/index.html /about.html /sub/page.txt` on one connection and then
-`/missing.html`:
+The server log while the client fetched `/index.html /about.html /sub/page.txt` on one connection, then
+`/missing.html`, and then the two broken frames below arrived:
 
 ![server log](screenshots/2-running.png)
 
-The two broken frames from above and what the server logged:
+The two broken frames from above, sent with `nc`, and the 400 answers:
 
 ![broken frames sent with nc](screenshots/3-broken-frame.png)
 
