@@ -82,5 +82,5 @@ The two broken frames from above, sent with `nc`, and the 400 answers:
 This is the server for BHTTP-A. We wrote it as a pair:
 Shreyash wrote the server and Pratham wrote the client, and the only thing we share is SPEC.md.
 
-- server (this repo): https://github.com/<your-github-username>/pairA-server
-- client: https://github.com/<partner-github-username>/pairA-client
+- server (this repo): https://github.com/Shreyash-Beyond-Journeys-End/NA-Project-Server
+- client: https://github.com/Pratham-Onkar-Singh/Network-Architecture-Client
